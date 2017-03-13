@@ -30,8 +30,7 @@
     "benchmark": "matcha --harmony test/benchmarks"
   },
   "dependencies": {
-    "debug": "^2.1.3",
-    "es6-promise": "^2.0.1"
+    "debug": "^2.1.3"
   },
   "devDependencies": {
     "chai": "^2.2.0",
