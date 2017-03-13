@@ -7,7 +7,7 @@ var chai = require('chai')
 chai.use(require('chai-spies'))
 var expect = chai.expect
 
-var Promise = GLOBAL.Promise || require('es6-promise').Promise
+var Promise = global.Promise || require('es6-promise').Promise
 var net = require('net')
 var utils = require('../lib/utils')
 var TimeoutError = utils.TimeoutError

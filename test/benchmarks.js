@@ -9,7 +9,7 @@ var spawn = require('child_process').spawn
 var assert = require('assert')
 var Pool = require('../').Pool
 var Balancer = require('../').Balancer
-var Promise = GLOBAL.Promise || require('es6-promise').Promise
+var Promise = global.Promise || require('es6-promise').Promise
 
 suite('jacuzzi', function () {
   set('iterations', 1000)
